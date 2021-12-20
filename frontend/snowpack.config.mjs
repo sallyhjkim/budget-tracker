@@ -14,6 +14,12 @@ export default {
                 ...(process.versions.pnp ? { tsc: "yarn pnpify tsc" } : {}),
             },
         ],
+        [
+            "@snowpack/plugin-sass",
+            {
+                /* see options below */
+            },
+        ],
     ],
     packageOptions: {
         namedExports: ["antd"],

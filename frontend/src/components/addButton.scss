@@ -1,0 +1,11 @@
+.addButtonContainer {
+    width: 50px;
+    background: red;
+    border-radius: 31px;
+    height: 50px;
+    display: flex;
+    cursor: pointer;
+    svg {
+        margin: auto;
+    }
+}
